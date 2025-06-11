@@ -1,3 +1,7 @@
 User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /private/
 Allow: /
-Sitemap: https://email-profissional.pages.dev/sitemap.xml
+
+Sitemap: https://email.tecinova.top/sitemap.xml
