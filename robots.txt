@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://email-profissional.pages.dev/sitemap.xml
