@@ -3,208 +3,168 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="E-mails profissionais com domínio próprio para empresas. Implantação rápida, segura e personalizada.">
-  <meta name="keywords" content="e-mail profissional, domínio próprio, email corporativo, soluções para empresas, configuração de email">
-  <meta name="author" content="TECiNOVA Soluções Profissionais">
-  <meta property="og:title" content="E-mail Profissional com Domínio Próprio">
-  <meta property="og:description" content="Implantação de e-mails corporativos com suporte completo. Até 5 contas, 5GB cada, ideal para pequenas empresas.">
-  <meta name="twitter:card" content="summary_large_image">
-  <title>E-mail Profissional com Domínio Próprio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <meta name="description" content="Implantação rápida e segura de e-mails corporativos com domínio próprio. Até 5 contas com 5GB. Solicite já sua configuração." />
+  <meta name="keywords" content="email corporativo, email profissional, domínio personalizado, configuração de email empresarial" />
+  <meta name="author" content="Soluções Profissionais" />
+  <title>E-mail Profissional com Domínio Próprio | Soluções Profissionais</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
-    * {
-      box-sizing: border-box;
+    * {{
       margin: 0;
       padding: 0;
-    }
-    body {
-      font-family: 'Poppins', sans-serif;
-      background: #f8f9fa;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }}
+    body {{
+      background-color: #f9f9f9;
       color: #333;
       line-height: 1.6;
-    }
-    header, section, footer {
-      padding: 40px 20px;
-    }
-    header {
-      background: linear-gradient(to right, #0073e6, #005bb5);
-      color: #fff;
+    }}
+    header {{
+      background-color: #3D5C9D;
+      color: white;
+      padding: 2rem 1rem;
       text-align: center;
-    }
-    header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
-    }
-    header p {
-      font-size: 1.2rem;
-    }
-    .container {
-      max-width: 1100px;
+    }}
+    header h1 {{
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }}
+    header p {{
+      font-size: 1.1rem;
+    }}
+    .hero-image {{
+      width: 100%;
+      height: auto;
+      max-height: 400px;
+      object-fit: cover;
+      display: block;
+    }}
+    .section {{
+      padding: 2rem 1rem;
+      max-width: 900px;
       margin: 0 auto;
-    }
-    .features, .faq {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 20px;
-      margin-top: 30px;
-    }
-    .card {
-      background: #fff;
-      padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
-    }
-    .card h3 {
-      margin-bottom: 10px;
-      color: #0073e6;
-    }
-    .img-block {
-      text-align: center;
-    }
-    .img-block img {
-      max-width: 100%;
-      border-radius: 12px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      margin-top: 30px;
-    }
-    .testimonials {
-      font-style: italic;
-      background: #ffffff;
-      border-left: 4px solid #0073e6;
-      padding: 20px;
-      margin: 30px auto;
-    }
-    .cta {
-      background: #e9f3ff;
-      text-align: center;
-      padding: 40px 20px;
-    }
-    .cta h2 {
-      font-size: 1.8rem;
-      margin-bottom: 20px;
-    }
-    form {
-      display: grid;
-      gap: 15px;
-      max-width: 500px;
-      margin: 0 auto;
-    }
-    input, button {
-      padding: 12px;
-      font-size: 1rem;
+    }}
+    .benefits ul {{
+      list-style: none;
+      padding-left: 1rem;
+    }}
+    .benefits li::before {{
+      content: "✅ ";
+      color: green;
+    }}
+    .warning::before {{
+      content: "⚠️ ";
+      color: orange;
+    }}
+    .testimonial {{
+      background-color: #eef2f7;
+      padding: 1rem;
+      border-left: 4px solid #3D5C9D;
+      margin: 2rem 0;
+    }}
+    .faq h3 {{
+      margin-top: 1rem;
+      color: #3D5C9D;
+    }}
+    form {{
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }}
+    input[type="text"], input[type="email"] {{
+      padding: 0.75rem;
       border: 1px solid #ccc;
-      border-radius: 8px;
-    }
-    button {
-      background: #0073e6;
-      color: #fff;
+      border-radius: 5px;
+      width: 100%;
+    }}
+    button {{
+      padding: 1rem;
+      background-color: #3D5C9D;
+      color: white;
       border: none;
+      border-radius: 5px;
+      font-weight: bold;
       cursor: pointer;
       transition: background 0.3s;
-    }
-    button:hover {
-      background: #005bb5;
-    }
-    footer {
+    }}
+    button:hover {{
+      background-color: #2f4979;
+    }}
+    footer {{
+      background-color: #f1f1f1;
+      padding: 1rem;
       text-align: center;
-      background: #f1f1f1;
-      padding: 20px;
       font-size: 0.9rem;
-    }
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 2rem;
-      }
-    }
+      color: #666;
+    }}
+    @media (max-width: 600px) {{
+      header h1 {{
+        font-size: 1.5rem;
+      }}
+    }}
   </style>
+
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){{dataLayer.push(arguments);}}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXX');
+  </script>
 </head>
 <body>
   <header>
-    <div class="container">
-      <h1>Transforme sua Comunicação com E-mail Profissional</h1>
-      <p>Implantação rápida, segura e sob medida para seu domínio</p>
-    </div>
+    <h1>Transforme sua Comunicação com E-mail Profissional</h1>
+    <p>Implantação rápida, segura e sob medida para seu domínio.</p>
   </header>
 
-  <main class="container">
-    <div class="img-block">
-      <img src="https://images.pexels.com/photos/7679634/pexels-photo-7679634.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Profissionais com e-mail corporativo">
-    </div>
+  <img src="https://images.pexels.com/photos/6893921/pexels-photo-6893921.jpeg?auto=compress&cs=tinysrgb&h=600" alt="Profissionais usando e-mail corporativo com domínio próprio" class="hero-image" />
 
-    <section class="features">
-      <div class="card">
-        <h3>✅ E-mails com seu domínio</h3>
-        <p>Profissionalize sua marca com endereços personalizados.</p>
-      </div>
-      <div class="card">
-        <h3>✅ 5 contas com 5 GB</h3>
-        <p>Espaço ideal para pequenas empresas e times.</p>
-      </div>
-      <div class="card">
-        <h3>✅ Anexos até 25 MB</h3>
-        <p>Envie arquivos grandes com facilidade.</p>
-      </div>
-      <div class="card">
-        <h3>✅ Acesso Web e Mobile</h3>
-        <p>Use em qualquer lugar via navegador ou app gratuito.</p>
-      </div>
-      <div class="card">
-        <h3>🎁 Domínio .com.br incluso</h3>
-        <p>No plano anual você ganha o registro do domínio!</p>
-      </div>
-      <div class="card">
-        <h3>⚠️ Sem IMAP/POP</h3>
-        <p>Recomendado para uso via Web e apps móveis apenas.</p>
-      </div>
-    </section>
+  <div class="section benefits">
+    <h2>Benefícios que fazem a diferença</h2>
+    <ul>
+      <li>E-mails profissionais com seu próprio domínio</li>
+      <li>Até 5 contas com 5 GB cada</li>
+      <li>Anexos de até 25 MB</li>
+      <li>Acesso via navegador e aplicativos móveis</li>
+      <li class="warning">Sem suporte a IMAP/POP/ActiveSync</li>
+    </ul>
+  </div>
 
-    <section class="img-block">
-      <img src="https://images.pexels.com/photos/6893921/pexels-photo-6893921.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Configuração de e-mail empresarial">
-    </section>
+  <div class="section cta">
+    <h2>Por que escolher nossa solução?</h2>
+    <p>Você recebe suporte completo desde a configuração até a entrega final. É ideal para micro e pequenas empresas que desejam profissionalizar sua comunicação digital sem complicações técnicas.</p>
+  </div>
 
-    <section class="testimonials">
-      “Nosso escritório ganhou mais credibilidade com e-mails personalizados. A implantação foi rápida e sem complicações.”<br>
-      <strong>— Camila Torres, Consultora Jurídica</strong>
-    </section>
+  <div class="section testimonial">
+    <p>“Nosso escritório ganhou mais credibilidade com e-mails personalizados. A implantação foi rápida e sem complicações.”<br> — Camila Torres, Consultora Jurídica</p>
+  </div>
 
-    <section class="faq">
-      <div class="card">
-        <h3>📆 Prazo de Implantação</h3>
-        <p>Até 2 dias úteis com suporte completo incluso.</p>
-      </div>
-      <div class="card">
-        <h3>📱 Posso usar no celular?</h3>
-        <p>Sim! Acesse via navegador ou app oficial.</p>
-      </div>
-      <div class="card">
-        <h3>📧 Funciona no Outlook?</h3>
-        <p>Não, mas isso é possivel com posterior upgrade de plano.</p>
-      </div>
-    </section>
-  </main>
+  <div class="section faq">
+    <h2>Perguntas Frequentes</h2>
+    <h3>Qual o prazo para implantação?</h3>
+    <p>Normalmente entre 24 a 48 horas após confirmação dos dados.</p>
+    <h3>Posso usar no celular?</h3>
+    <p>Sim, o acesso funciona via navegador e aplicativos móveis (como Gmail e Outlook).</p>
+    <h3>É possível integrar com Outlook?</h3>
+    <p>Sim, via protocolo web, sem IMAP/POP/ActiveSync.</p>
+  </div>
 
-  <section class="cta">
-    <h2>👉 Solicite sua Implementação Personalizada</h2>
-    <p><strong>Plano anual com domínio incluso</strong></p>
-    <form action="https://formspree.io/f/xnnvdqlb" method="POST" onsubmit="return showThankYou()">
-      <input type="text" name="name" placeholder="Seu nome" required />
-      <input type="email" name="email" placeholder="Seu melhor e-mail" required />
-      <input type="text" name="dominio" placeholder="Seu domínio (ex: empresa.com.br)"/>
+  <div class="section form">
+    <h2>👉 Comece Agora com E-mail Profissional</h2>
+    <p>✔️ Solicite sua implementação personalizada</p>
+    <form action="https://formspree.io/f/xjvnzbod" method="POST">
+      <input type="text" name="nome" placeholder="Seu nome" required>
+      <input type="email" name="email" placeholder="Seu melhor e-mail" required>
+      <input type="text" name="dominio" placeholder="Seu domínio (ex: empresa.com.br)" required>
       <button type="submit">Solicitar Implementação</button>
-      <p id="thanks" style="display:none;">Obrigado! Em breve entraremos em contato.</p>
     </form>
-  </section>
+  </div>
 
   <footer>
-    © 2025 - TECiNOVA Soluções Profissionais. Todos os direitos reservados.
+    © 2025 - Soluções Profissionais. Todos os direitos reservados.
   </footer>
-
-  <script>
-    function showThankYou() {
-      document.querySelector("form").style.display = "none";
-      document.getElementById("thanks").style.display = "block";
-      return true;
-    }
-  </script>
 </body>
 </html>
